@@ -1,0 +1,44 @@
+.resume-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100vw;
+    height:max-content;
+    height: 70vh;
+
+    .resume-text-container{
+        display:grid;
+        place-items: center;
+        width:50%;
+        margin-top:30px;
+        // backdrop-filter: blur(3px);
+        color: white;
+        border-radius: 50%;
+        font-size: 2em;
+        font-family: SC-bold;
+            // height:100%;
+    }
+    h1{
+        width:100%;
+        text-align: center;
+        font-family: SC-bold;
+    }
+    h3{
+        width:100%;
+        text-align: center;
+    }
+
+    p{
+        font-size: 0.5em;
+        font-family: SC-italic;
+        width:80%;
+        text-align:center;
+    }
+    img{
+        width:300px;
+        height:auto;
+        display:block;
+        box-shadow: 1px solid yellow;
+    }
+}

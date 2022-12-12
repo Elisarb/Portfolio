@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: QS-regular;
+  src: url(./assets/Quattrocento_Sans/QuattrocentoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: QS-bold;
+  src: url(./assets/Quattrocento_Sans/QuattrocentoSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: SC-regular;
+  src: url(./assets/source_code/SourceCodePro-Regular.ttf);
+}
+
+@font-face {
+  font-family: SC-bold;
+  src: url(./assets/source_code/SourceCodePro-Bold.ttf);
+}
+
+@font-face {
+  font-family: SC-italic;
+  src: url(./assets/source_code/SourceCodePro-Italic.ttf);
+}
