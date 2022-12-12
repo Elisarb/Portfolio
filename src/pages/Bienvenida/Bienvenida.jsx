@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Bienvenida/Bienvenida.scss';
 import Slideshow from '../../components/slideshow/slideshow';
-import TypeWriterEffect from 'react-typewriter-effect';
 // import {ReactComponent as ReactLogo} from '../../assets/rocket.svg';
 import Rocket from '../../assets/rocket.svg';
 import Code from '../../assets/coding wpp.png';
