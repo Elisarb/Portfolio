@@ -14,7 +14,10 @@ const Resume = () => {
         <h3>Full Stack Developer Jr.</h3>
         <p>Electronic Engineering Student. Just graduated from Upgrade Hub as a Full Stack Web Developer. Passionate about languages and spacecrafts.</p>
         </div>
-        <img src={profilepic}/>
+        <div className='img-container'>
+            <img src={profilepic}/>
+        </div>
+        
         </div>
     )
 }

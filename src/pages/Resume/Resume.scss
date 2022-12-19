@@ -4,13 +4,13 @@
     align-items: center;
     flex-wrap: wrap;
     width:100vw;
-    height:max-content;
-    height: 70vh;
+    height:fit-content;
+    margin-top:30px;
 
     .resume-text-container{
         display:grid;
         place-items: center;
-        width:50%;
+        width:70%;
         margin-top:30px;
         // backdrop-filter: blur(3px);
         color: white;
@@ -40,5 +40,14 @@
         height:auto;
         display:block;
         box-shadow: 1px solid yellow;
+        position:absolute;
+        bottom:0px;
+    }
+
+    .img-container{
+        height:350px;
+        width:300px;
+        position: relative;
+        overflow-y:hidden;
     }
 }

@@ -4,6 +4,7 @@ import applergic from '../../assets/applergic mobile.png'
 import got from '../../assets/got-ss.png'
 import shopeame from '../../assets/shopeame ss 1.png'
 import pokedex from '../../assets/Pokedex-ss.png'
+import conido from '../../assets/conido ss.png'
 import '../carousel/carousel.scss';
 
 function ReactSimplyCarouselExample() {
@@ -50,17 +51,16 @@ function ReactSimplyCarouselExample() {
           //here you can also pass className, or any other button element attributes
           style: {
             position: 'relative',
-            alignSelf: 'center',
+            
             background: 'transparent',
             border: 'none',
-            borderRadius: '50%',
             color: 'white',
             cursor: 'pointer',
             fontSize: '40px',
-            height: 30,
+            height: '220px',
             lineHeight: 1,
             textAlign: 'center',
-            width: 30,
+            width: '18%',
             zIndex: "99",
           },
           children: <span>{`>`}</span>,
@@ -68,17 +68,17 @@ function ReactSimplyCarouselExample() {
         backwardBtnProps={{
           //here you can also pass className, or any other button element attributes
           style: {
-            alignSelf: 'center',
+            position: 'relative',
+            
             background: 'transparent',
             border: 'none',
-            borderRadius: '50%',
             color: 'white',
             cursor: 'pointer',
             fontSize: '40px',
-            height: 30,
+            height: '220px',
             lineHeight: 1,
             textAlign: 'center',
-            width: 30,
+            width: '18%',
             zIndex: "99",
           },
           children: <span>{`<`}</span>,
@@ -107,11 +107,12 @@ function ReactSimplyCarouselExample() {
        <div className="face face2">
          <div className="content">
            <p> <h5>Applergic</h5> Mobile application using ReactJs designed to simplify the lives of people with allergies. The app allows the user to scan barcodes and checks if the user is allowed to consume the product.</p>
-           <a href="#" type="button">Read More</a>
+           <a href="#" type="button" target="_blank">Read More</a>
          </div>
        </div>
     </div>
         </div>
+
         <div>
         <div className="card">
        <div className="face face1">
@@ -122,7 +123,7 @@ function ReactSimplyCarouselExample() {
        <div className="face face2">
          <div className="content">
            <p> <h5>Pokedex</h5>Web application using the Pokemon API, that filters the pokemons by type and name</p>
-           <a href="#" type="button">Read More</a>
+           <a href="https://pokeapi-one-delta.vercel.app/" type="button" target="_blank">Read More</a>
          </div>
        </div>
     </div>
@@ -137,7 +138,7 @@ function ReactSimplyCarouselExample() {
        <div className="face face2">
          <div className="content">
            <p> <h5>GOT</h5>Web application using ReactJs and a Game of Thrones API with all the characters and houses from the show. Also with a function that shows the characters in chronological order.</p>
-           <a href="#" type="button">Read More</a>
+           <a href="https://game-of-thrones-beige.vercel.app/" type="button" target="_blank">Read More</a>
          </div>
        </div>
     </div>
@@ -152,7 +153,25 @@ function ReactSimplyCarouselExample() {
        <div className="face face2">
          <div className="content">
            <p><h5>Shopeame</h5>Web application using AngularJs and an external API for all the products. A store where you can add and delete products</p>
-           <a href="#" type="button">Read More</a>
+           <a href="https://shopeame-angular-jade.vercel.app/" target="_blank" type="button">Read More</a>
+         </div>
+       </div>
+    </div>
+        </div>
+
+        <div>
+        <div className="card">
+       <div className="face face1">
+         <div className="content">
+            {/* <i className="fab fa-windows"></i>             */}
+           {/* <h3>Windows</h3> */}
+           <img src={conido}/>
+         </div>
+       </div>
+       <div className="face face2">
+         <div className="content">
+           <p> <h5>Conido</h5> Web application using ReactJs designed to help the user find apartments on rent near their selected location.</p>
+           <a href="https://conido-test.vercel.app/" type="button" target="_blank">Read More</a>
          </div>
        </div>
     </div>

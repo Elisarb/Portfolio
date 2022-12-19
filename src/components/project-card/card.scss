@@ -1,0 +1,17 @@
+.project-card{
+    display:flex;
+
+    .project-multimedia{
+        width:50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        .vjs-tech{
+            width: 50%;
+        }
+    }
+
+    .project-text{
+        width:50%;
+    }
+}

@@ -4,6 +4,7 @@ import Starry from '../../components/starry/starry';
 import 'simplebar-react/dist/simplebar.min.css';
 import ReactSimplyCarouselExample from '../../components/carousel/carousel'
 import Resume from '../../pages/Resume/Resume.jsx'
+import ProjectCard from '../../components/project-card/card'
 
 const Projects = () => {
 
@@ -22,7 +23,11 @@ const Projects = () => {
             
             <div className='veil'>
             </div>
-            
+{/* 
+            <ProjectCard 
+            title="Applergic"></ProjectCard> */}
+
+                        
         </div>
         
     )
